@@ -82,8 +82,15 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
-    ...
+@media only screen and (max-width: 992px) {
+    .navbar-content {
+        
+        flex-direction: column;
+    }
+    .navbar-left {
+        width: 90%;
+        text-align: center;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
