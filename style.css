@@ -1,0 +1,131 @@
+/* Default css  */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+.center {
+    text-align: center;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header part of cs starts */
+.header-section {
+	background: #5954f4;
+}
+
+.navbar-content {
+    justify-content: space-between;
+}
+
+.navbar-left {
+    width: 25%;
+}
+
+.navbar-left img {
+    width: 40%;
+    background: transparent;
+}
+
+.navbar-right ul {
+    line-height: 4em;
+}
+
+.navbar-right ul li {
+    margin-left: 15px;
+}
+
+.navbar-right ul li a {
+    color: white;
+    font-size: 1.12em;
+    font-family: sans-serif;
+    font-weight: 300;
+    transition: all .5s ease-in-out;
+}
+
+.navbar-right ul li a:hover, .navbar-right ul li a:hover {
+	color: #ffb506;
+}
+
+.login-btn {
+    background: linear-gradient(#10cd7d, #007480, #00c3ff);
+    padding: 10px 20px;
+    border-radius: 3px;
+    transition: all .5s ease-in-out;
+}
+
+.login-btn:hover {
+    color: lightcoral;
+    background: linear-gradient(#00c3ff, #10cd7d, #007480);
+}
+
+/* Banner Pert */
+.header-banner {}
+
+.banner-contents {}
+
+.banner-left {
+    width: 35%;
+}
+
+.banner-left h1 {
+	color: white;
+	margin: 3em 0;
+	font-size: 3.2em;
+	font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.banner-left a {
+	display: inline-block;
+	margin-bottom: 5em;
+	line-height: 20px;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.banner-left a:hover{
+    color: aliceblue;
+}
+
+.banner-right {
+	width: 65%;
+	text-align: right;
+}
+
+.banner-right img {
+    width: 80%;
+   
+}
+
+
+
+/* Header part of cs Ends */
+
+
+
+/*     font-family: 'Poppins', sans-serif;
+
+    font-family: 'Roboto', sans-serif; */
