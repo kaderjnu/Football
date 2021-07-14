@@ -47,7 +47,9 @@
     .highlight-section {
         margin: 0em 0;
     }
-
+    .highlight-content {
+        flex-direction: column;
+    }
     .highlight-left {
         width: 95%;
     }
@@ -60,7 +62,33 @@
     .highlight-left p {
         margin: 20px 0;
         text-align: center;
-        padding-left: 16px;
+        padding-left: 22px;
+    }
+    .highlight-btn {
+        margin: 3em 10em;
+        display: block;
+        text-align: center;
+    }
+    .highlight-right {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .custom-footer-link {
+        text-align: center;
+        display: block;
+    }
+    .custom-footer-link li {
+        margin-left: 10px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .custom-footer-link li a {
+        font-size: 1.4em;
     }
 
     /* Medium devices (tablets, 768px and up) */
