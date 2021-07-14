@@ -143,6 +143,9 @@
         padding-top: 10px;
         font-size: 1.2em;
     }
+    .card-contents {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -167,9 +170,4 @@
         padding: 1em 18px;
        
     }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    
 }
