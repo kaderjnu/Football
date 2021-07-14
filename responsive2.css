@@ -1,0 +1,97 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 650px) {
+    .navbar-content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .navbar-left {
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-right ul {
+        display: none;
+    }
+    .banner-contents {
+        flex-wrap: wrap;
+    }
+    .banner-left {
+        width: 100%;
+    }
+    .banner-left h1 {
+        margin: 1em 2px;
+        font-size: 2em;
+        text-align: center;
+    }
+    .banner-left a {
+        margin-bottom: 3em;
+        margin-left: 12em;
+    }
+    .banner-right {
+        width: 95%;
+        text-align: center;
+    }
+    .card-contents {
+        grid-template-columns: 1fr;
+    }
+    .highlight-section {
+        margin: 0em 0;
+    }
+    .highlight-content {
+        flex-direction: column;
+    }
+    .highlight-left {
+        width: 95%;
+    }
+    .highlight-left h1 {
+        font-size: 2em;
+        text-align: center;
+    }
+    .highlight-left p {
+        margin: 20px 0;
+        text-align: center;
+        padding-left: 22px;
+    }
+    .highlight-btn {
+        margin: 3em 10em;
+        display: block;
+        text-align: center;
+    }
+    .highlight-right {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .custom-footer-link {
+        text-align: center;
+        display: block;
+    }
+    .custom-footer-link li {
+        margin-left: 10px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .custom-footer-link li a {
+        font-size: 1.4em;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    ...
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    ...
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    ...
+}
