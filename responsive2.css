@@ -79,7 +79,8 @@
         font-size: 1.4em;
     }
     .card-contents {
-        grid-template-columns: 1fr !important;
+        display: flex;
+        flex-direction: column;
     }
 
 }
