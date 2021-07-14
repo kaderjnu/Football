@@ -78,6 +78,9 @@
     .custom-footer-link li a {
         font-size: 1.4em;
     }
+    .card-contents {
+        grid-template-columns: 1fr !important;
+    }
 
 }
 
