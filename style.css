@@ -69,7 +69,7 @@ a {
 }
 
 .navbar-right ul li a:hover,
-.navbar-right ul li a:hover {
+.navbar-right ul li a:focus {
     color: #ffb506;
 }
 
@@ -234,6 +234,10 @@ a {
 }
 .custom-footer-link li a {
     color: #fff;
+    transition: all .5s ease-in-out;
+}
+.custom-footer-link li a:hover{
+    color: #ffb506;
 }
 
 /* Footer Section Ends */
